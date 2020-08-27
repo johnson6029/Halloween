@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C4100681FB2B6210096B8DE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF4A4971FAA8964007B896D /* DetailView.swift */; };
+		3C5CF17C1FAA73F60059A02A /* HomeViewCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5CF17B1FAA73F60059A02A /* HomeViewCustomCell.swift */; };
+		3CB42D4B1FAA6D7F00DD72F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB42D4A1FAA6D7F00DD72F9 /* AppDelegate.swift */; };
+		3CB42D4D1FAA6D7F00DD72F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB42D4C1FAA6D7F00DD72F9 /* ViewController.swift */; };
+		3CB42D501FAA6D7F00DD72F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB42D4E1FAA6D7F00DD72F9 /* Main.storyboard */; };
+		3CB42D521FAA6D7F00DD72F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB42D511FAA6D7F00DD72F9 /* Assets.xcassets */; };
+		3CB42D551FAA6D7F00DD72F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB42D531FAA6D7F00DD72F9 /* LaunchScreen.storyboard */; };
+		3CB42D601FAA6D8000DD72F9 /* HalloweenThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB42D5F1FAA6D8000DD72F9 /* HalloweenThemeTests.swift */; };
+		3CB42D6B1FAA6D8000DD72F9 /* HalloweenThemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB42D6A1FAA6D8000DD72F9 /* HalloweenThemeUITests.swift */; };
+		3CF4A4961FAA813A007B896D /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF4A4951FAA813A007B896D /* AddView.swift */; };
+		3CF4A4981FAA8964007B896D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF4A4971FAA8964007B896D /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CB42D5C1FAA6D8000DD72F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CB42D3F1FAA6D7F00DD72F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CB42D461FAA6D7F00DD72F9;
+			remoteInfo = HalloweenTheme;
+		};
+		3CB42D671FAA6D8000DD72F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CB42D3F1FAA6D7F00DD72F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CB42D461FAA6D7F00DD72F9;
+			remoteInfo = HalloweenTheme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C5CF17B1FAA73F60059A02A /* HomeViewCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCustomCell.swift; sourceTree = "<group>"; };
+		3CB42D471FAA6D7F00DD72F9 /* HalloweenHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalloweenHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB42D4A1FAA6D7F00DD72F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CB42D4C1FAA6D7F00DD72F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CB42D4F1FAA6D7F00DD72F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CB42D511FAA6D7F00DD72F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CB42D541FAA6D7F00DD72F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CB42D561FAA6D7F00DD72F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB42D5B1FAA6D8000DD72F9 /* HalloweenHouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalloweenHouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB42D5F1FAA6D8000DD72F9 /* HalloweenThemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenThemeTests.swift; sourceTree = "<group>"; };
+		3CB42D611FAA6D8000DD72F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB42D661FAA6D8000DD72F9 /* HalloweenHouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalloweenHouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB42D6A1FAA6D8000DD72F9 /* HalloweenThemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenThemeUITests.swift; sourceTree = "<group>"; };
+		3CB42D6C1FAA6D8000DD72F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF4A4951FAA813A007B896D /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		3CF4A4971FAA8964007B896D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB42D441FAA6D7F00DD72F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB42D581FAA6D8000DD72F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB42D631FAA6D8000DD72F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CB42D3E1FAA6D7F00DD72F9 = {
+			isa = PBXGroup;
+			children = (
+				3CB42D491FAA6D7F00DD72F9 /* HalloweenHouse */,
+				3CB42D5E1FAA6D8000DD72F9 /* HalloweenHouseTests */,
+				3CB42D691FAA6D8000DD72F9 /* HalloweenHouseUITests */,
+				3CB42D481FAA6D7F00DD72F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB42D481FAA6D7F00DD72F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB42D471FAA6D7F00DD72F9 /* HalloweenHouse.app */,
+				3CB42D5B1FAA6D8000DD72F9 /* HalloweenHouseTests.xctest */,
+				3CB42D661FAA6D8000DD72F9 /* HalloweenHouseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CB42D491FAA6D7F00DD72F9 /* HalloweenHouse */ = {
+			isa = PBXGroup;
+			children = (
+				3CB42D4A1FAA6D7F00DD72F9 /* AppDelegate.swift */,
+				3CB42D4C1FAA6D7F00DD72F9 /* ViewController.swift */,
+				3CB42D4E1FAA6D7F00DD72F9 /* Main.storyboard */,
+				3CF4A4971FAA8964007B896D /* DetailView.swift */,
+				3CB42D511FAA6D7F00DD72F9 /* Assets.xcassets */,
+				3CB42D531FAA6D7F00DD72F9 /* LaunchScreen.storyboard */,
+				3CB42D561FAA6D7F00DD72F9 /* Info.plist */,
+				3C5CF17B1FAA73F60059A02A /* HomeViewCustomCell.swift */,
+				3CF4A4951FAA813A007B896D /* AddView.swift */,
+			);
+			path = HalloweenHouse;
+			sourceTree = "<group>";
+		};
+		3CB42D5E1FAA6D8000DD72F9 /* HalloweenHouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CB42D5F1FAA6D8000DD72F9 /* HalloweenThemeTests.swift */,
+				3CB42D611FAA6D8000DD72F9 /* Info.plist */,
+			);
+			path = HalloweenHouseTests;
+			sourceTree = "<group>";
+		};
+		3CB42D691FAA6D8000DD72F9 /* HalloweenHouseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CB42D6A1FAA6D8000DD72F9 /* HalloweenThemeUITests.swift */,
+				3CB42D6C1FAA6D8000DD72F9 /* Info.plist */,
+			);
+			path = HalloweenHouseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CB42D461FAA6D7F00DD72F9 /* HalloweenHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB42D6F1FAA6D8000DD72F9 /* Build configuration list for PBXNativeTarget "HalloweenHouse" */;
+			buildPhases = (
+				3CB42D431FAA6D7F00DD72F9 /* Sources */,
+				3CB42D441FAA6D7F00DD72F9 /* Frameworks */,
+				3CB42D451FAA6D7F00DD72F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HalloweenHouse;
+			productName = HalloweenTheme;
+			productReference = 3CB42D471FAA6D7F00DD72F9 /* HalloweenHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CB42D5A1FAA6D8000DD72F9 /* HalloweenHouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB42D721FAA6D8000DD72F9 /* Build configuration list for PBXNativeTarget "HalloweenHouseTests" */;
+			buildPhases = (
+				3CB42D571FAA6D8000DD72F9 /* Sources */,
+				3CB42D581FAA6D8000DD72F9 /* Frameworks */,
+				3CB42D591FAA6D8000DD72F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CB42D5D1FAA6D8000DD72F9 /* PBXTargetDependency */,
+			);
+			name = HalloweenHouseTests;
+			productName = HalloweenThemeTests;
+			productReference = 3CB42D5B1FAA6D8000DD72F9 /* HalloweenHouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CB42D651FAA6D8000DD72F9 /* HalloweenHouseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB42D751FAA6D8000DD72F9 /* Build configuration list for PBXNativeTarget "HalloweenHouseUITests" */;
+			buildPhases = (
+				3CB42D621FAA6D8000DD72F9 /* Sources */,
+				3CB42D631FAA6D8000DD72F9 /* Frameworks */,
+				3CB42D641FAA6D8000DD72F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CB42D681FAA6D8000DD72F9 /* PBXTargetDependency */,
+			);
+			name = HalloweenHouseUITests;
+			productName = HalloweenThemeUITests;
+			productReference = 3CB42D661FAA6D8000DD72F9 /* HalloweenHouseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB42D3F1FAA6D7F00DD72F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Johnson;
+				TargetAttributes = {
+					3CB42D461FAA6D7F00DD72F9 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					3CB42D5A1FAA6D8000DD72F9 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CB42D461FAA6D7F00DD72F9;
+					};
+					3CB42D651FAA6D8000DD72F9 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CB42D461FAA6D7F00DD72F9;
+					};
+				};
+			};
+			buildConfigurationList = 3CB42D421FAA6D7F00DD72F9 /* Build configuration list for PBXProject "HalloweenHouse" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CB42D3E1FAA6D7F00DD72F9;
+			productRefGroup = 3CB42D481FAA6D7F00DD72F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB42D461FAA6D7F00DD72F9 /* HalloweenHouse */,
+				3CB42D5A1FAA6D8000DD72F9 /* HalloweenHouseTests */,
+				3CB42D651FAA6D8000DD72F9 /* HalloweenHouseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CB42D451FAA6D7F00DD72F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB42D551FAA6D7F00DD72F9 /* LaunchScreen.storyboard in Resources */,
+				3CB42D521FAA6D7F00DD72F9 /* Assets.xcassets in Resources */,
+				3CB42D501FAA6D7F00DD72F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB42D591FAA6D8000DD72F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB42D641FAA6D8000DD72F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CB42D431FAA6D7F00DD72F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF4A4961FAA813A007B896D /* AddView.swift in Sources */,
+				3CB42D4D1FAA6D7F00DD72F9 /* ViewController.swift in Sources */,
+				3C5CF17C1FAA73F60059A02A /* HomeViewCustomCell.swift in Sources */,
+				3CF4A4981FAA8964007B896D /* DetailView.swift in Sources */,
+				3CB42D4B1FAA6D7F00DD72F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB42D571FAA6D8000DD72F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB42D601FAA6D8000DD72F9 /* HalloweenThemeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB42D621FAA6D8000DD72F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB42D6B1FAA6D8000DD72F9 /* HalloweenThemeUITests.swift in Sources */,
+				2C4100681FB2B6210096B8DE /* DetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CB42D5D1FAA6D8000DD72F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CB42D461FAA6D7F00DD72F9 /* HalloweenHouse */;
+			targetProxy = 3CB42D5C1FAA6D8000DD72F9 /* PBXContainerItemProxy */;
+		};
+		3CB42D681FAA6D8000DD72F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CB42D461FAA6D7F00DD72F9 /* HalloweenHouse */;
+			targetProxy = 3CB42D671FAA6D8000DD72F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CB42D4E1FAA6D7F00DD72F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB42D4F1FAA6D7F00DD72F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CB42D531FAA6D7F00DD72F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB42D541FAA6D7F00DD72F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CB42D6D1FAA6D8000DD72F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CB42D6E1FAA6D8000DD72F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CB42D701FAA6D8000DD72F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HalloweenHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnson.HalloweenHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CB42D711FAA6D8000DD72F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HalloweenHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnson.HalloweenHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CB42D731FAA6D8000DD72F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HalloweenThemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.HalloweenThemeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HalloweenHouse.app/HalloweenHouse";
+			};
+			name = Debug;
+		};
+		3CB42D741FAA6D8000DD72F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HalloweenThemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.HalloweenThemeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HalloweenHouse.app/HalloweenHouse";
+			};
+			name = Release;
+		};
+		3CB42D761FAA6D8000DD72F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HalloweenThemeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.HalloweenThemeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HalloweenTheme;
+			};
+			name = Debug;
+		};
+		3CB42D771FAA6D8000DD72F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HalloweenThemeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.HalloweenThemeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HalloweenTheme;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CB42D421FAA6D7F00DD72F9 /* Build configuration list for PBXProject "HalloweenHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB42D6D1FAA6D8000DD72F9 /* Debug */,
+				3CB42D6E1FAA6D8000DD72F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB42D6F1FAA6D8000DD72F9 /* Build configuration list for PBXNativeTarget "HalloweenHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB42D701FAA6D8000DD72F9 /* Debug */,
+				3CB42D711FAA6D8000DD72F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB42D721FAA6D8000DD72F9 /* Build configuration list for PBXNativeTarget "HalloweenHouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB42D731FAA6D8000DD72F9 /* Debug */,
+				3CB42D741FAA6D8000DD72F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB42D751FAA6D8000DD72F9 /* Build configuration list for PBXNativeTarget "HalloweenHouseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB42D761FAA6D8000DD72F9 /* Debug */,
+				3CB42D771FAA6D8000DD72F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CB42D3F1FAA6D7F00DD72F9 /* Project object */;
+}
